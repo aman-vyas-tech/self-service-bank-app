@@ -1,0 +1,17 @@
+<h1>Welcome to Self Service Bank</h1>
+<p>
+	Please login to start self service
+</p>
+
+<div>
+	<fieldset>
+		<label for="username">Username</label>
+		<input type="text" ng-model="user.username">{{user.username}}
+	</fieldset>
+	<fieldset>
+    <label for="username">Password</label>
+		<input type="password" ng-model="user.password">
+	</fieldset>
+
+  <Button ng-click="loginUser(user)">Loign</Button>
+</div>
